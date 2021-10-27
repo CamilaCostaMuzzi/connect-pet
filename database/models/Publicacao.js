@@ -16,7 +16,7 @@ p.associate = (models)=> {
     p.hasMany(models.Comentario, {as:'comentarios', foreignKey:'publicacoes_id'});
     p.belongsTo(models.Usuario, {as:'publicacao', foreignKey:'usuarios_id'});
 }
-
+// testando git
 
 return p;
 }
